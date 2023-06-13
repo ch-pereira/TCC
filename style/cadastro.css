@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.center {
+    max-width: 1300px;
+    padding: 0 2%;
+    display: flex;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: whitesmoke;
+  }
+  
+  .logo {
+    color: white;
+  }
+  
+  .menu a {
+    color: black;
+  }
+
+  h3 {
+    color: black;
+  }
+
+.menu-container {
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .menu-container a.active-menu {
+    color: black;
+    background-color: #c5f7f0;
+  }
+  
+  .menu-container a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    padding: 8px 15px;
+    transition: 0.8s;
+  }
+  
+  .menu-container a:hover {
+    color: #66b3a7;
+  }
+  
+  .main {
+    min-height: 800px;
+    background-image: url(imagem/samoieda-4.webp);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  ul,
+  li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 150px;
+  }
+  
+  .menu-container li {
+    position: relative;
+  }
+  
+  .menu-container > li:hover {
+    background: gray;
+  }
+  
+  .menu-container li:hover > .sub-menu {
+    display: flex;
+  }
+  
+  /* Estilos para o sub-menu */
+  .sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    background-color: whitesmoke;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16), 0 4px 8px rgba(0, 0, 0, 0.23);
+  }
+  
+  .sub-menu li {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .sub-menu li a {
+    display: block;
+    padding: 12px 16px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  /* Estilos para o link principal do menu */
+  .menu li:hover .sub-menu {
+    display: block;
+  }
+  
+  .menu li:hover a {
+    background-color: whitesmoke;
+  }
+  
+  li {
+    display: inline;
+    width: 120px;
+  }
+
+input, button{
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 2px solid #000000;
+    border-radius: 8px;
+}
+
+input, button {
+    background-color: whitesmoke;
+    color: #000000;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 6px;
+    
+}
+h1{
+    text-align: center;
+}
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 50px;
+    align-items: auto;
+    background: whitesmoke;
+    border-radius: 9px;
+    border: 1px solid whitesmoke;
+    margin-top: 100px;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    min-height: 800px;
+    background-size: cover;
+    background-position: center;
+    margin: 0 0 60px;
+}
+
+ .enviar{
+  text-decoration: none;
+  color: black;
+ }
